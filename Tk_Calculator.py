@@ -2,7 +2,6 @@ from tkinter import *
 
 root = Tk()
 root.title("NickCalculator")
-root.iconbitmap('C:/Users/nickv/Pictures/PycharmPics/calc.ico')
 # this one is good because its settings aren't changed :)
 screen = Entry(root, width=45, borderwidth=5)
 screen.grid(row=0, column=0, columnspan=3)
